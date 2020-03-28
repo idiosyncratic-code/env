@@ -1,0 +1,33 @@
+{
+  "name": "idiosyncratic/env",
+  "type": "library",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Jason Silkey",
+      "email": "jason@jasonsilkey.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "discard-changes": true
+  },
+  "require": {},
+  "require-dev": {
+    "idiosyncratic/devtools": "^0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Idiosyncratic\\Env\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Idiosyncratic\\Env\\": "tests"
+    }
+  }
+}
